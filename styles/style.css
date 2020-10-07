@@ -1,0 +1,40 @@
+html, body{
+  font-family: 'Roboto', sans-serif;
+}
+#input{
+  border:0px
+}
+#input::placeholder {
+  color: white;
+}
+#input:focus {
+  box-shadow: 0 0 black;
+  outline: none;
+}
+.blurred{
+  filter: blur(4px);
+}
+#pop-up{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#pop-up-hided{
+  cursor: pointer;
+  display: none;
+  border-radius: 50%; 
+  width:70px; 
+  height: 70px; 
+  right:0px; 
+  top:50px;
+}
+.linear-back-purple{
+  background: linear-gradient(#7376FF, #B124ED);
+}
+.liner-back-light-orange{
+  background: linear-gradient(90deg, rgb(255,236,210,0.3), rgb(252,182,159,0.3));
+}
+#popups-container{
+  z-index: 1;
+}

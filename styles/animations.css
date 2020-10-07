@@ -1,0 +1,15 @@
+.hided-pop-up__animation-default {
+    animation-iteration-count: 2;
+    animation-name: resize-hided-pop-up;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+@keyframes resize-hided-pop-up {
+    0%   {top: 50px;}
+    15%  {top: 40px}
+    30% {top: 50px}
+}
+#reset-arrow:hover{
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
